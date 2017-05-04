@@ -132,7 +132,7 @@ void SFApp::OnUpdateWorld() {
   for (auto a: aliens)
   {
 	  { alienfire = rand()%1000+1;
-        		if(alienfire < 1.50)
+        		if(alienfire < 1.01)
         		{
         		auto apb = make_shared<SFAsset>(SFASSET_ALIENPROJECTILE, sf_window);
         		auto av = a->GetPosition();
